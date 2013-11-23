@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu:400' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+
+        <div class="site">
+          <div class="header">
+            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+            <a class="extra" href="/resources">resources</a>
+            <a class="extra" href="/about">about</a>
+            <a class="extra" href="/">home</a>
+          </div>
+
+          {{ content }}
+
+          <div class="footer">
+            <div>
+              <h5 class="about">About the Instructor</h5>
+              <h5 class="about" style="float: right">Location</h5>
+            </div>
+            <div class="contact">
+              <p>
+                Collin Stedman<br />
+                BSE Computer Science @ Princeton <br />
+                collinbstedman @ gmail
+              </p>
+            </div>
+            <div class="contact">
+              <p>
+                <a href="https://github.com/kronion">github.com/kronion</a><br />
+                <a href="http://collinstedman.com">collinstedman.com</a><br />
+                <a href="https://twitter.com/CS_Princeton">twitter.com/CS_Princeton</a><br />
+              </p>
+            </div>
+            <div class="contact" id="location">
+              <p>
+                Wednesdays at 8PM<br />
+                Lewis Library 138<br />
+                All Welcome!</br />
+              </p>
+          </div>
+        </div>
+        <div id=license>
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Decompressor</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="kronion.github.io" property="cc:attributionName" rel="cc:attributionURL">Collin Stedman</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
+        </div>
+    </body>
+</html>
