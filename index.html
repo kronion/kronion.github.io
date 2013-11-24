@@ -4,16 +4,19 @@ title: Princeton Hack Classes - Web Development
 ---
 
 <div id="home">
-  <img id="banner_image" src={{ site.url }}/assets/images/web_dev_class.jpg />
+  <img id="banner_image" src="{{ site.url }}/assets/images/web_dev_class.jpg"/>
   <h1>Welcome to Web Development</h1>
   <p id="intro">
     This is the official home of the Princeton Entrepreneurship Club's Web Development class for the fall of 2013. Class notes and slides will be posted here, as well as code examples and external resources.
   </p>
-  <p style="text-align: right">Happy learning!<br />-CS</p>
+  <p style="text-align: right">Happy learning!<br />-CS<br /></p>
   <h1>Class Notes</h1>
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a><span>{{ post.date | date_to_string }}</span>
+        <p>{{ post.excerpt }}</p>
+      </li>
     {% endfor %}
   </ul>
 </div>
