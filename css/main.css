@@ -84,44 +84,55 @@ a:visited { color: #a0a; }
 
 /*****************************************************************************/
 /*
-/* Resources
+/* Top-level Pages (Not Home)
 /*
 /*****************************************************************************/
 
-#resources {
+.top-static {
   padding-top: 1.5em;
   border-top: 20px solid #000;
   border-radius: 5px;
   border-radius-bottom: 5px;
 }
 
-#resources a {
+.top-static a {
   font-family: Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif;
   text-decoration: none;
   color: #ee7f2d;
   font-size: 125%;
 }
 
-#resources a:hover {
+.top-static a:hover {
   color: #000;
 }
 
-#resources p > a {
+.top-static p {
+  margin-bottom: 0.5em;
+}
+
+.top-static p > a {
   font-size: 100%;
 }
 
-#resources ul {
+.top-static ul {
   list-style-type: none;
 }
 
-#resources li {
+.top-static li {
   line-height: 1.75em;
   padding-top: 1.25em;
   padding-bottom: 1.25em;
   border-bottom: 2px solid #000;
 }
 
-#resources li:last-child {
+.top-static li > h1 {
+  font-size: 125%;
+  font-weight: 500;
+  color: #ee7f2d;
+  margin-bottom: 0.1em;
+}
+
+.top-static li:last-child {
   border-bottom: 0px;
 }
 
@@ -262,6 +273,25 @@ a:visited { color: #a0a; }
   padding-top: 1em;
   padding-bottom: 1em;
   border-bottom: 2px solid #000;
+}
+
+.post a {
+  font-family: Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: #ee7f2d;
+  font-size: 125%;
+}
+
+.post a:hover {
+  color: #000;
+}
+
+.post p > a {
+  font-size: 100%;
+}
+
+.post p {
+  margin-bottom: 0.5em;
 }
 
 /* standard */
