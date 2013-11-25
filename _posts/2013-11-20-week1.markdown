@@ -9,5 +9,5 @@ Hello, and welcome to the web development track of Princeton Hack Classes, prese
 
 You can find the lecture slides [here][slides]. To supplement the slides, I have written a handout which contains most of my talking points and several code examples. You can find that [here][handout]. Any code examples I add in the future will be found here, so be sure to check back.
 
-[slides]: http://www.google.com/
+[slides]: https://docs.google.com/presentation/d/1xHkQXjHVZIha0jMaafLbO6Jr5FtYaEORvrFCPYuKEpQ/edit?usp=sharing 
 [handout]: https://docs.google.com/document/d/1tAvgdQgK-xRqzPn3dfvwA7RKPhDFifpSDFvmimhERFg/edit?usp=sharing
