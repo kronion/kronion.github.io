@@ -182,6 +182,10 @@ hr {
 
 }
 
+#faq dd {
+  margin-bottom: 1em;
+}
+
 
 #faq dt {
   padding-top: 1px;
@@ -190,19 +194,12 @@ hr {
   font-weight: 700;
 }
 
-.wrap {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.leftcol {
-  float: left;
-  width:45%;
-}
-
-.rightcol {
-  float:right;
-  width:45%;
+@media screen and (max-width: 767px) {
+  .faq_mobile {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 #sponsor {
