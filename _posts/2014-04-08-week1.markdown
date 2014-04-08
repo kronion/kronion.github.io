@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Spring 2014 Week 1: Environment Setup"
+date:   2014-04-08 19:30:00
+categories: environment setup terminal shell browser editor handout
+---
+
+Many people have been asking me to write a handout defining the tools that we will use in this class, as well as how to download and set them up.
+
+I finally found the time to make such a handout, which you can access [here][pdf]. In the handout, I make recommendations for editors, browsers, and terminals to use on both OSX and Windows. I assume that you already know what you're doing if you are a Linux user, but the OSX instructions all still apply to Linux save for those about terminals.
+
+Note that I don't cover the installation of Node.js and related tools, which we will use in the second half of this class. We will cover the installation of Node in the third lecture.
+
+[pdf]: https://drive.google.com/file/d/0B4Wzdu-L8KoDZHJZVmxXRmdzM0E/edit?usp=sharing 

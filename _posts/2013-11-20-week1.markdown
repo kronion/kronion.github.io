@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Week 1: HTML and CSS"
+title:  "Fall 2013 Week 1: HTML and CSS"
 date:   2013-11-20 22:00:01
 categories: html css lecture
 ---
